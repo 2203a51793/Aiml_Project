@@ -1,4 +1,6 @@
 # Hepatitis C Disease Prediction
+# Project Code: https://github.com/2203a51793/Aiml_Project/blob/main/Hepatitis%20C%20prediction_Code.ipynb
+# DataSet: https://github.com/2203a51793/Aiml_Project/blob/main/HepatitisCdata.csv
 
 ## Overview
 This project is aimed at predicting **Hepatitis C** using machine learning techniques. The model was trained on a dataset in CSV format and achieved an accuracy of **95%**. The goal of the project is to assist in the early detection and prediction of Hepatitis C based on patient data, which can potentially lead to quicker diagnosis and treatment.
@@ -77,5 +79,3 @@ y_pred = rf_model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy * 100:.2f}%")
 
-# Project Code: https://github.com/2203a51793/Aiml_Project/blob/main/Hepatitis%20C%20prediction_Code.ipynb
-# DataSet: https://github.com/2203a51793/Aiml_Project/blob/main/HepatitisCdata.csv
